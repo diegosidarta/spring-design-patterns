@@ -1,17 +1,15 @@
 package dio.bootcamp.padrao_projeto_spring.service.impl;
 
 import dio.bootcamp.padrao_projeto_spring.model.Cliente;
-import dio.bootcamp.padrao_projeto_spring.model.ClienteRepository;
+import dio.bootcamp.padrao_projeto_spring.repository.ClienteRepository;
 import dio.bootcamp.padrao_projeto_spring.model.Endereco;
-import dio.bootcamp.padrao_projeto_spring.model.EnderecoRepository;
+import dio.bootcamp.padrao_projeto_spring.repository.EnderecoRepository;
 import dio.bootcamp.padrao_projeto_spring.service.ClienteService;
 import dio.bootcamp.padrao_projeto_spring.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
-
-import java.util.Optional;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
