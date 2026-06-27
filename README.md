@@ -1,7 +1,7 @@
-# 🚀 Spring Boot - Design Patterns (GoF)
+#  Spring Boot - Design Patterns (GoF)
 
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.7-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-blue)](https://swagger.io/)
 
 API REST desenvolvida em Java com Spring Boot, focada na exploração e implementação prática de **Padrões de Projeto (Design Patterns - GoF)**.
